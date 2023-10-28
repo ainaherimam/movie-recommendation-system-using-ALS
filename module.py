@@ -248,8 +248,6 @@ def rmse(user_vector,movie_vector,data_by_user,user_bias, movie_bias):
   return rmse
 
 
-
-
 def update_vector(data, vector, vector_to_update, bias_1, bias_2, lamda, tau, m):
     # Determine the number of latent dimension
     latent_dimension = vector.shape[1]
